@@ -9,6 +9,8 @@ tasks:
   - before: |
       export FLASK_APP=flaskr
       export FLASK_ENV=development
+      export LANG=en_US.utf8
+      export LC_ALL=en_US.utf8
     init: |
       pip3 install -e .
       flask init-db
