@@ -12,7 +12,7 @@ tasks:
       export LANG=en_US.utf8
       export LC_ALL=en_US.utf8
     init: |
-      pip3 install -e .
+      sudo pip3 install -e .
       flask init-db
     command: |
       flask run
